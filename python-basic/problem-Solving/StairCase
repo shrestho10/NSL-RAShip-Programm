@@ -1,0 +1,23 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the staircase function below.
+def staircase(n):
+    count=0
+    for i in range(0,n):
+        count+=1
+        for j in range(0,n-count):
+            print(" " , end = '')
+        for k in range(0,count):
+            print("#", end = '')
+        print("")
+
+if __name__ == '__main__':
+    n = int(input())
+
+    staircase(n)
