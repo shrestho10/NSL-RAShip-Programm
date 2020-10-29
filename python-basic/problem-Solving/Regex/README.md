@@ -1,3 +1,4 @@
+#Some inportant functions
 <H2>
 1	capitalize()
 Capitalizes first letter of string
